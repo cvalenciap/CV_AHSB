@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://desa_his/WSDesaClavesHOST/PServicioClavesHOST" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://desa_his/WSDesaClavesHOST/PServicioClavesHOST" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://desa_his/WSDesaClavesHOST/PServicioClavesHOST">
+      <s:element name="SerClavesHOST">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cadena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SerClavesHOSTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SerClavesHOSTResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cadena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="SerClavesHOSTSoapIn">
+    <part name="parameters" element="s0:SerClavesHOST" />
+  </message>
+  <message name="SerClavesHOSTSoapOut">
+    <part name="parameters" element="s0:SerClavesHOSTResponse" />
+  </message>
+  <portType name="PServicioClavesHOSTSoap">
+    <operation name="SerClavesHOST">
+      <input message="s0:SerClavesHOSTSoapIn" />
+      <output message="s0:SerClavesHOSTSoapOut" />
+    </operation>
+  </portType>
+  <binding name="PServicioClavesHOSTSoap" type="s0:PServicioClavesHOSTSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="SerClavesHOST">
+      <soap:operation soapAction="http://desa_his/WSDesaClavesHOST/PServicioClavesHOST/SerClavesHOST" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="PServicioClavesHOST">
+    <port name="PServicioClavesHOSTSoap" binding="s0:PServicioClavesHOSTSoap">
+      <soap:address location="http://desa_his/wsDesaclaveshost/pservicioclaveshost.asmx" />
+    </port>
+  </service>
+</definitions>

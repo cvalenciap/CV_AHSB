@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://srv1dapan2/wsgetarraybytes/wsgetarray.asmx?wsdl" filename="WSGetArray.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://10.7.12.50/wsgetarraybytes/wsgetarray.asmx?disco" filename="WSGetArray.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

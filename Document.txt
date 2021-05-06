@@ -1,0 +1,3 @@
+sQuery = " SELECT TpoSeguro,  NumdeAfiliacion, Estado, CTadAhorros, TipoDoc, NumeroDoc, NombresyApellidos, FechadAfiliacion, FechadBaja, FechadDesafiliacion, TarjetadTitular, TarjetAdicional, Importe " & _
+                     " FROM SEGUROS  " & _
+                     " WHERE NumeroDoc = '" & sNumDoc & "'"

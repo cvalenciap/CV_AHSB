@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AHSB">
+</Property><Property Name="Archivo de la solución" Value="E:\Fonafe\ProyectoAHSB\Ingenieria\Fuentes_BN\AHSB\Fuentes\AHSB\AHSB.sln">
+</Property><Property Name="Date" Value="miércoles, 10 de mayo de 2017">
+</Property><Property Name="Time" Value="09:58 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="DBConexion_SQL" Source="DBConexion_SQL\DBConexion_SQL.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="DBConexion_SQL" Source="DBConexion_SQL\DBConexion_SQL.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AHSB.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="AHSB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AHSB" Source="Global.asax.vb.old" Description="copia de seguridad creada">
+</Event><Event ErrorLevel="3" Project="AHSB" Source="Global.asax.vb" Description="Converted">
+</Event><Event ErrorLevel="3" Project="AHSB" Source="AHSB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AHSB" Source="AHSB.vbproj" Description="Ha completado el primer paso para convertir el proyecto web de Visual Studio .NET 2003. Para completar la conversión, seleccione el proyecto en el Explorador de soluciones y elija el elemento de menú contextual 'Convertir en aplicación web'.">
+</Event><Event ErrorLevel="0" Project="DBConexion_SQL" Source="DBConexion_SQL\DBConexion_SQL.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

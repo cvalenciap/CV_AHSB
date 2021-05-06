@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfigurationModule>
+	<DataSource key="log_event">
+		<DATA>true</DATA>
+	</DataSource>
+	<DataSource key="log_error">
+		<DATA>true</DATA>
+	</DataSource>
+	<DataSource key="PROD">
+		<DATA>/ZBzfLphO/jdyraT4e727n9IyjkxCq+DkcnMlunfwTQ9sc7mSi6bTheIXn0pBmYezoAWitA5zr8=</DATA>
+	</DataSource>
+	<DataSource key="CERT">
+		<DATA>wyumNjIf9wFWRwZYTUVtW4iPUDw15JuwvJAwSDgxy7+lVX0h+A65LSV+qF+yO75d2PKeeV8ZEoOVBXOYx4sI6tpIuUFyGVke7+OAEJ5n+D5Cx/T6zyy8Goz8NWjtn/LBh0t3nY5Agysk3uXW+6y/5Q==</DATA>
+	</DataSource>
+	<DataSource key="SQL">
+		<DATA>wyumNjIf9wEceFYcL0Rv3xHA1+OmZYjSGB1Q4YSQt0sLg19N0M+8qZaL1sDdMDSW6AQmwI6h6uQJYLe4oucJXnmzeC3ePz2LXPFDbXQDJrmKjkQ69TJ6xUpDuYBxdcsPo9fMvWGb977ck2DLQ59muA==</DATA>
+	</DataSource>
+	<DataSource key="SQLCUB">
+		<DATA>/ZBzfLphO/iIlXweGUeB4u4RlN9wX4TCpGGGwwyYQ3zaWs+azv6uTqs9zJ/YH552y/MmTH9Wta5sPgFVCRVjrfhQMU0onTWa</DATA>
+	</DataSource>
+</ConfigurationModule>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Principal>
+	<Menu>
+		<Id>2</Id>
+		<Id_Padre>0</Id_Padre>
+		<Descripcion>Registro</Descripcion>
+		<CodHtml>&lt;FONT class=ob_a2 &gt;Registro&lt;FONT &gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>3</Id>
+		<Id_Padre>2</Id_Padre>
+		<Descripcion>Formato 1</Descripcion>
+		<CodHtml>&lt;a href='w_formulario1.aspx?ID_Nodo=0' Target='main' class=ob_a2  &gt;Ingresar Formato1&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>4</Id>
+		<Id_Padre>2</Id_Padre>
+		<Descripcion>Formato 2</Descripcion>
+		<CodHtml>&lt;a href='w_formulario2.aspx?ID_Nodo=0' Target='main' class=ob_a2  &gt;Ingresar Formato2&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>5</Id>
+		<Id_Padre>2</Id_Padre>
+		<Descripcion>Formato 3</Descripcion>
+		<CodHtml>&lt;a href='w_formulario3.aspx'  Target='main' class=ob_a2  &gt;Ingresar Formato3&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>6</Id>
+		<Id_Padre>2</Id_Padre>
+		<Descripcion>Formato 4</Descripcion>
+		<CodHtml>&lt;a href='w_formulario4.aspx' Target='main'  class=ob_a2  &gt;Ingresar Formato4&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>7</Id>
+		<Id_Padre>0</Id_Padre>
+		<Descripcion>Generar Textos</Descripcion>
+		<CodHtml>&lt;FONT class=ob_a2  &gt;Consultas&lt;FONT&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>8</Id>
+		<Id_Padre>7</Id_Padre>
+		<Descripcion>Consolidado Formato1</Descripcion>
+		<CodHtml>&lt;a href='w_consolidado1.aspx' Target='main'  class=ob_a2  &gt;Consolidado Formato1&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>9</Id>
+		<Id_Padre>7</Id_Padre>
+		<Descripcion>Consolidado Formato2</Descripcion>
+		<CodHtml>&lt;a href='w_consolidado2.aspx' Target='main'  class=ob_a2  &gt;Consolidado Formato2&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>10</Id>
+		<Id_Padre>7</Id_Padre>
+		<Descripcion>Consolidado Formato3</Descripcion>
+		<CodHtml>&lt;a href='w_consolidado3.aspx' Target='main'  class=ob_a2  &gt;Consolidado Formato3&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>11</Id>
+		<Id_Padre>7</Id_Padre>
+		<Descripcion>Consolidado Formato4</Descripcion>
+		<CodHtml>&lt;a href='w_consolidado4.aspx'  Target='main' class=ob_a2  &gt;Consolidado Formato4&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>12</Id>
+		<Id_Padre>0</Id_Padre>
+		<Descripcion>Mantenimiento</Descripcion>
+		<CodHtml>&lt;FONT class=ob_a2  &gt;Mantenimiento&lt;FONT&gt;</CodHtml>	</Menu>
+	<Menu>
+		<Id>13</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Códigos de Operación</Descripcion>
+		<CodHtml>&lt;a href='w_mnoperacion.aspx' Target='main'  class=ob_a2  &gt;Códigos de Operación&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>14</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Instrumentos de Pago</Descripcion>
+		<CodHtml>&lt;a href='w_mninstpago.aspx'  Target='main' class=ob_a2  &gt;Instrumentos de Pago&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>15</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Canales</Descripcion>
+		<CodHtml>&lt;a href='w_mncanal.aspx' Target='main'  class=ob_a2  &gt;Canales&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>16</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Comisión BCR</Descripcion>
+		<CodHtml>&lt;a href='w_mncomision.aspx' Target='main'  class=ob_a2  &gt;Comisión BCR&lt;/a&gt;</CodHtml>
+	</Menu>
+	<Menu>
+		<Id>17</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Transacciones</Descripcion>
+		<CodHtml>&lt;a href='w_mnttransac.aspx'  Target='main' class=ob_a2  &gt;Transacciones&lt;/a&gt;</CodHtml>
+	</Menu>
+		<Menu>
+		<Id>18</Id>
+		<Id_Padre>12</Id_Padre>
+		<Descripcion>Datos Generales</Descripcion>
+		<CodHtml>&lt;a href='w_mnparametros.aspx'  Target='main' class=ob_a2  &gt;Datos Generales&lt;/a&gt;</CodHtml>
+	</Menu>
+</Principal>

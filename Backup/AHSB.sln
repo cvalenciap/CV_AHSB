@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AHSB", "AHSB.vbproj", "{9C241EBE-5AA2-4B80-968C-6AFA83F145AD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DBConexion_SQL", "DBConexion_SQL\DBConexion_SQL.vbproj", "{B3ABB422-0B45-4885-ABA1-0F3F5A485758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C241EBE-5AA2-4B80-968C-6AFA83F145AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C241EBE-5AA2-4B80-968C-6AFA83F145AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C241EBE-5AA2-4B80-968C-6AFA83F145AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C241EBE-5AA2-4B80-968C-6AFA83F145AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3ABB422-0B45-4885-ABA1-0F3F5A485758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3ABB422-0B45-4885-ABA1-0F3F5A485758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3ABB422-0B45-4885-ABA1-0F3F5A485758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3ABB422-0B45-4885-ABA1-0F3F5A485758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

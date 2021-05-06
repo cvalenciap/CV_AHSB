@@ -1,0 +1,97 @@
+/* for div where treeview is placed */
+div.ob_tree	
+{
+	background:"imagenes/fondobn.gif";
+	border:0px solid #000000;
+	overflow: auto;
+}
+
+/* for node text */
+td.ob_t2 {
+	font: 8pt Tahoma;
+	color: #ffffff;
+	vertical-align: middle;
+	border: none;
+	background-color: none;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+/* for node text highlighted/selected */
+td.ob_t3 {
+	font: 8pt Tahoma; 
+	vertical-align: middle;
+	border: 1px solid #000000;
+	background-color: #000000;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+/* for node when edited */
+input.ob_t3		{
+	font: 8pt Tahoma; 
+}
+
+/* links in all nodes */
+td.ob_t2 A		{
+	color: #ffffff;
+	text-decoration: underline;
+	font: 7pt Arial;
+}
+
+/* link in selected node */
+td.ob_t3 A		{
+	color: crimson;
+	text-decoration: underline;
+	font: 7pt Arial;
+}
+
+/* for icons */
+td.ob_t4 {
+	display:none;
+	vertical-align: top;
+}
+
+/* for icons */
+div.ob_d4 {
+	width: 18px;
+	font: 6pt Tahoma;
+}
+
+/* for vertical lines (indent) */
+div.ob_d5 {
+	width: 15px;
+	vertical-align: top;
+}
+		
+/* for plus-minus images */
+td.ob_t6 {
+	width:16px;
+	vertical-align: top;
+}
+
+/* for message "Loading ..." */
+td.ob_t7 {
+	font: 8pt Tahoma; 
+	background-color: #000000; 
+	border: 1px solid #ff0000; 
+	color: #ffffff; 
+	width: 80px; 
+	text-align: center; 
+	padding-left: 15px;
+}
+
+/* for links */
+A.ob_a2 {
+	font: 9pt Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+A.ob_a3 {
+	font: 10pt Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration: none;
+}
